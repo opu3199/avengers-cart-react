@@ -1,0 +1,44 @@
+
+body{
+    background:url(/image/555990.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed ;
+    
+}
+.card{
+    
+    width: 250px;
+    height: 370px;
+    border: 2px solid yellow;
+    color:chartreuse;
+    
+}
+img{
+    width: 100px;
+    border-radius: 50px;
+}
+.info{
+display: flex;
+justify-content: space-evenly;
+}
+.btn1{
+    background-color: aqua;
+}
+.cart{
+    color: white;
+}
+.full-container{
+    display: flex;
+}
+.card-container{
+    width: 700px;
+display: flex;
+flex-wrap:wrap;
+gap: 10px;
+
+
+}
+.card{
+    border-radius: 20px;
+}
